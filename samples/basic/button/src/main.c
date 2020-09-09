@@ -65,6 +65,9 @@ void main(void)
 	bool test1 = true;
 	test1 = true;
 	test1 = true;
+	bool test2 = false;
+	test2 = false;
+	test2 = false;
 
 	button = device_get_binding(SW0_GPIO_LABEL);
 	if (button == NULL) {
