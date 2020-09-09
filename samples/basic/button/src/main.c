@@ -62,6 +62,10 @@ void main(void)
 	struct device *led;
 	int ret;
 
+	bool test2 = false;
+	test2 = false;
+	test2 = false;
+
 	button = device_get_binding(SW0_GPIO_LABEL);
 	if (button == NULL) {
 		printk("Error: didn't find %s device\n", SW0_GPIO_LABEL);
