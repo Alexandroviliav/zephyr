@@ -68,6 +68,7 @@ void main(void) {
   bool test3 = true;
   bool test4 = true;
 
+  bool test_amend = false;
   bool merge_test = true;
 
   button = device_get_binding(SW0_GPIO_LABEL);
